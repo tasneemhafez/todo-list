@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <div class="todo-app">
+        <h2>To-Do List <img src="To-Do-Img/images/icon.png" alt="todo"></h2>
+        <div class="row">
+            <input type="text" id="input-Box" placeholder="Add your text">
+            <button onclick="addTask()" class="w-25 text-success">Add</button>
+        </div>
+        <div class="tex">
+            <h3> you must write something!</h3>
+        </div>
+        <ul id="lista-container">
+            <!-- <li class="checked">task1</li>
+            <li>task1</li>
+            <li>task1</li> -->
+        </ul>
+    </div>
+ </div>
+</body>
+<script src="main.js"></script>
+</html>
